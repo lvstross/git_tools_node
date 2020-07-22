@@ -1,0 +1,22 @@
+{
+  "name": "git_tools_node",
+  "version": "1.0.0",
+  "description": "Interactive git tools CLI",
+  "main": "main.js",
+  "repository": "https://github.com/lvstross/git_tools_node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gtn": "./main.js"
+  },
+  "keywords": [
+    "git",
+    "cli"
+  ],
+  "author": "Levi Gonzales",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.1.7"
+  }
+}
